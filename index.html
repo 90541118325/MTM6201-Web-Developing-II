@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header section -->
+        <header>
+            <h1>C&D Pet Studio</h1>
+            <!-- Navigation with skip links -->
+            <nav role="navigation" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#studio">Studio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Banner image with an alt attribute -->
+            <img src="goldy.jpg" class="banner" alt="goldy.jpg">
+        </header>
+
+        <!-- Main content section -->
+        <main>
+            <!-- Section for "Home" content -->
+            <article id="home">
+                <h2>Welcome to C&D Pet Studio</h2>
+                <p>C&D Pet Service is a professional pet care and service company. C&D Pet Service is dedicated to serving all the furry angels with professional and exceptional care. Our team strives to alleviate the burden of parents and owners. “Treat all furry angels like our own” is our team’s motto. C&D Pet Service and all fellow members care and love your pets. We want to establish a new and professional standard in the market. Our team is determined to build a brand in the future. A branch that posits all furry angels in the first place. </p>
+
+                 <p> C&D Pet Service has four professional pet grooming studios in the Greater Toronto Area. C&D Pet Studios are located in Scarborough, North York, and St. Catharines. All of our studios are equipped with professional and experienced groomers. C&D Pet Service is confident to perform the best and utmost professional grooming for all furry angels. As a professional pet care and service company, we comprehend that all pets will be more or less nervous and anxious while taking a bath with us. Subsequently, we always prioritize the feelings of all furry angels. Our team serves all pets exceptionally with the utilization of professional skills and experience to minimize negative feelings like anxiety. </p>
+
+                  <p>C&D Pet Service also fathoms the scarcity of professional pet groomers in the current labour market. Therefore, we have our pet groomer training school. We want passionate people that love pets to join us. We want to train and educate more professional groomers to take care of our furry angels. More locations are coming soon. Please join us if you love and care for your pets! Please provide the best care to your pets with the help of C&D Pet Service!.</p>
+               
+            </article>
+
+            <!-- Section for "Studio" content -->
+            <article id="studio">
+                <h2>Meet the owner</h2>
+                <ul>
+                    <li>Name: John Doe</li>
+                    <li>Title: CEO</li>
+                    <li>Email: <a href="cdpetstudio.com">cdpetstudio.com</a></li>
+                    <li>Phone: <a href="tel:(647) 348-5588">(647) 348-5588</a></li>
+                </ul>
+                <h2>Address</h2>
+                <p>
+                    2190 Warden Ave, <br>Toronto ON<br> M1T 1V6 
+                </p>
+            </article>
+
+            <!-- Section for "Contact" content -->
+            <article id="contact">
+                <h2>Contact Us</h2>
+                <form action="thanks.html">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </article>
+        </main>
+
+        <!-- Footer section -->
+        <footer>
+            <!-- Updated year in the footer -->
+            &copy; 2023 C&D Pet Studio
+        </footer>
+    </div>
+</body>
+</html>
